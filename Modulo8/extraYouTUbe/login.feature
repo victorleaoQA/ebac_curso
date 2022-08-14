@@ -33,3 +33,5 @@
             | "leaovic@icloud.com" | "marinha0" | "Usuário ou senha inválidos"                   |
             | "leac@icloud.com"    | "marinha0" | "Usuário nãocadastrado em nossa base de dados" |
 
+            # Fazendo um teste para o novo repositório remoto.
+
