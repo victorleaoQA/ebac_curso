@@ -22,14 +22,19 @@ header {
     flex-wrap: nowrap;
     flex-direction: row;
     
+    
 }
 
 .main {
     display: flex;
+    flex-direction: column;
     padding: auto;
     padding-left: 30px;
     padding-top: 100px;
     text-align: center;
+    position:static;
+      
+    
 }
 
 .container {
@@ -39,6 +44,9 @@ header {
     width: 80%;
     text-align: justify;
     padding: 10px;
+    box-shadow: 10px 5px 5px #FFAEBC;
+    padding: 30px;
+    margin: 30px;
 }
 
 
@@ -48,9 +56,11 @@ header {
     width: 100%;
 }
 
-.title, h1 {
+.title {
+    
     font-family: 'Roboto Condensed', sans-serif;
     color: #C85250;
+    font-size: large;
 }
 
 ul {
@@ -65,3 +75,53 @@ li, a{
     text-decoration: none;
     color: #C85250;
 }
+
+aside {
+    float: right;
+    display: flex;
+    margin-top: 70px;
+    width: 300px;
+    background-color: #C85250;
+    height: 1080px;
+    padding-top: 30px;
+    
+    
+}
+
+.content {
+    color: #C85250;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #C85250;
+    font-size: large;
+}
+
+.victor {
+    margin-right: 10px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: -20px;
+    
+}
+
+.textvictor{
+    color: #dad7d7;
+    font-size: medium;
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    margin-right: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #C85250;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #C85250;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
+
